@@ -48,7 +48,7 @@ $query=mysqli_query($conexao, "SELECT * FROM admin WHERE login_func='$login' and
 }else{
 	echo "<center><h1 class='alert-danger'><b>Nome do usuário ou senha inválidos! Aguade um instante para tentar novamente.</h1></b></center>";
 	echo "<script>loginfailed()</script>";
-	  echo "<br><br><center><img src='ajax_load.gif'></center>";
+	  echo "<br><br><center><img src='imagens/ajax_load.gif'></center>";
 }
 ?>
 </div>

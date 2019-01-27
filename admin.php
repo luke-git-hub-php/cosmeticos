@@ -152,10 +152,10 @@ $conexao=mysqli_connect("localhost", "root", "","cosmeticos") or die(mysql_error
   </div><br>
 	<footer class="container-fluid text-center">
   <p>Online Store Copyright</p>  
-  <form class="form-inline">Get deals:
+ <!-- <form class="form-inline">Get deals:
     <input type="email" class="form-control" size="50" placeholder="Email Address">
     <button type="button" class="btn btn-danger">Inscrever-se</button>
-  </form>
+  </form>-->
 </footer>
 
 </body>

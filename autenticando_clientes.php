@@ -36,7 +36,7 @@ if ($row > 0) {
 }else{
 	 echo "<h1 class='alert-success'><i><center><b>Nome do usuário ou senha inválidos! Aguade um instante para tentar novamente.</b></center></i><h1>";
 	echo "<script>loginfailed()</script>";
-	echo "<br><br><center><img src='ajax_load.gif'></center>";
+	echo "<br><br><center><img src='imagens/ajax_load.gif'></center>";
 }
  ?>
  <?php include('rodape.php');?>
